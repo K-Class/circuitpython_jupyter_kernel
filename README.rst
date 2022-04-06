@@ -84,7 +84,13 @@ Optional::
 CircuitPython kernel::
 
     cd circuitpython_kernel/
-    python3 setup.py install; python3 -m circuitpython_kernel.install
+    python3 setup.py install; 
+    
+    new install:
+    --------
+    
+    pip install git+https://github.com/K-Class/circuitpython_jupyter_kernel.git
+    python -m circuitpython_kernel.install
 
 Then run with one of::
 
