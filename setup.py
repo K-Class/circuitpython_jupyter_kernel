@@ -24,7 +24,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Carol Willing",
     author_email='carolcode@willingconsulting.com',
-    url='https://github.com/adafruit/circuitpython_kernel',
+    url='https://github.com/K-Class/circuitpython_jupyter_kernel',
     packages=['circuitpython_kernel'],
     package_dir={'circuitpython_kernel': 'circuitpython_kernel'},
     entry_points={},
